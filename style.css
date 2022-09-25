@@ -97,8 +97,7 @@ section{
   font-size: 1.0rem;
   font-family: Arial;
   color: #ffffff;
-  background-color: rgb(37, 37, 37);
-  text-align: left;
+  text-align: center;
   margin-top: 100px;
 margin-left:60px ;
 }
@@ -106,9 +105,8 @@ margin-left:60px ;
   margin-right: 60px;
   font-size: 1.0rem;
   font-family: Arial;
+  text-align: center;
   color: #ffffff;
-  background-color: rgb(37, 37, 37);
-  text-align: left;
   margin-top: 100px;
 
 
@@ -117,8 +115,7 @@ margin-left:60px ;
   font-size: 1.0rem;
   font-family: Arial;
   color: #ffffff;
-  background-color: rgb(37, 37, 37);
-  text-align: left;
+  text-align: center;
   margin-top: 100px;
 margin-left:60px ;
 }
@@ -127,17 +124,20 @@ margin-left:60px ;
   font-size: 1.0rem;
   font-family: Arial;
   color: #ffffff;
-  background-color: rgb(37, 37, 37);
-  text-align: left;
-  margin-top: 100px;
+  text-align: center;
+    margin-top: 100px;
 }
-
+.textoj3 img{
+height: 200px;
+width: 200px;
+}
 .grid1 {
+  background: url(ll/Sem\ Título-5.png)no-repeat;
   display: grid;
    padding: 30px;
   margin:  auto;
   flex-direction: column;
-  grid-gap: 50px;
+  grid-gap: 120px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:"textot jogo"
                       "jogo2 textoj2"
@@ -388,4 +388,43 @@ header .navigation.active{
   
 
 }
+#jogo2 {
+  margin-left: 5px;
+  margin-right: 5px;
+ 
+   
+ 
+ }
+ #jogo3 {
+  margin-left: 5px;
+  margin-right: 5px;
+ 
+   
+ 
+ }
+ #jogo4 {
+  margin-left: 5px;
+  margin-right: 5px;
+ 
+ }
+ #texto{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+ }
+ #texto2{
+ margin-left: 5px;
+ margin-right: 5px;
+ margin-top: 2px;
+}
+#texto3{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+ }
+ #texto4{
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+ }
 }
