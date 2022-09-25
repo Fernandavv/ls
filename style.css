@@ -17,7 +17,7 @@ body{
   display: block;
 }
 
-p{
+section p{
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -27,7 +27,7 @@ p{
 section.grid1{ 
   background-color: #171818;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 160px;
 
 }
 
@@ -83,6 +83,8 @@ section{
   padding: 100px 200px;
 }
 
+
+
 /*imagens do jogo */
 
 .grid1 img{
@@ -91,30 +93,65 @@ section{
   display: block;
 }
 
-.grid1  p{
+.textot  p{
+  font-size: 1.0rem;
+  font-family: Arial;
   color: #ffffff;
+  background-color: rgb(37, 37, 37);
   text-align: left;
-margin-left: 15px;
+  margin-top: 100px;
+margin-left:60px ;
 }
+.textoj2  p{
+  margin-right: 60px;
+  font-size: 1.0rem;
+  font-family: Arial;
+  color: #ffffff;
+  background-color: rgb(37, 37, 37);
+  text-align: left;
+  margin-top: 100px;
+
+
+}
+.textoj3  p{
+  font-size: 1.0rem;
+  font-family: Arial;
+  color: #ffffff;
+  background-color: rgb(37, 37, 37);
+  text-align: left;
+  margin-top: 100px;
+margin-left:60px ;
+}
+.textoj4  p{
+  margin-right: 60px;
+  font-size: 1.0rem;
+  font-family: Arial;
+  color: #ffffff;
+  background-color: rgb(37, 37, 37);
+  text-align: left;
+  margin-top: 100px;
+}
+
 .grid1 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 10px;
-  margin: 0 auto;
+   padding: 30px;
+  margin:  auto;
   flex-direction: column;
-  grid-gap: 20px;
-  grid-template-areas:"jogo textot"
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:"textot jogo"
                       "jogo2 textoj2"
-                      "jogo3 textoj3"
+                      "textoj3 jogo3"
                       "jogo4 textoj4" ;
   grid-template-rows: repeat(4, 1fr);
 }
 
 #textot{
   grid-area: textot;
+ 
 }
 
-#textoj2{
+#textoj2 p{
   grid-area: textoj2;
 }
 #textoj3{
@@ -132,6 +169,7 @@ margin-left: 15px;
 
 }
 #jogo2{
+  margin-left: 70px;
   margin-top: 30px;
   grid-area: jogo2;
  
@@ -142,6 +180,7 @@ margin-left: 15px;
  
 }
 #jogo4{
+  margin-left: 70px;
   margin-top: 30px;
   grid-area: jogo4;
 
